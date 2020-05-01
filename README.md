@@ -3,4 +3,4 @@
 https://mohyaghoub.wixsite.com/motrixsite
 
 Google Play link:
-https://play.google.com/store/apps/details?id=com.mohyaghoub.calculator&hl=en_US
+ https://play.google.com/store/apps/details?id=com.mohyaghoub.calculator&hl=en_US
