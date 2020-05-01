@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WindowActivity">
+
+    <Button
+        android:id="@+id/MinXWindow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/numberbtn"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/MaxXWindow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/MaxXWindow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/numberbtn"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/MinYWindow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MinXWindow" />
+
+    <Button
+        android:id="@+id/MinYWindow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/numberbtn"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/MaxYWindow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MaxXWindow" />
+
+    <Button
+        android:id="@+id/MaxYWindow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/numberbtn"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/ResetWindow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MinYWindow" />
+
+    <Button
+        android:id="@+id/SaveWindow"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/operationbtn"
+        android:minHeight="70dp"
+        android:text="Save"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ResetWindow" />
+
+    <Button
+        android:id="@+id/ResetWindow"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/operationbtn"
+        android:minHeight="70dp"
+        android:text="Reset"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/SaveWindow"
+        app:layout_constraintStart_toEndOf="@+id/CancelWindow" />
+
+    <Button
+        android:id="@+id/CancelWindow"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/operationbtn"
+        android:minHeight="70dp"
+        android:text="@android:string/cancel"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ResetWindow"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>

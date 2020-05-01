@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mohyaghoub.calculator">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/calculator_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/calculator_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".CameraActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="ocr" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".CalculatorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FunctionActivity"
+            android:label="Functions"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Graph"
+            android:label="Graph"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashGraph"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".MultipleGraphActivity"
+            android:label="Graph"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditActivity"
+            android:label="Edit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tools_FunctionSelection"
+            android:label="Function selection"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ToolsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WindowActivity"
+            android:label="Window" />
+        <activity android:name=".CreateList_Activity" />
+        <activity
+            android:name=".ShowListsActivity"
+            android:label="Lists"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GraphLists"
+            android:label="Graph Lists"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SmartRoom"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HelpActivity"
+            android:label="Help"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

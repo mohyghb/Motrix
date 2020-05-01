@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/windowRatiosForMultipleGraphs"
+        android:icon="@drawable/ic_panorama_wide_angle_black_24dp"
+        android:title="Window size"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/GraphMultipleFunctionsMenuButton"
+        android:icon="@drawable/white_graph_button_menu"
+        android:title="Graph"
+        app:showAsAction="always" />
+</menu>

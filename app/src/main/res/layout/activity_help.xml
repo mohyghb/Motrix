@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity">
+
+    <Button
+        android:id="@+id/Help_Main-menu"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/operationbtn"
+        android:text="Main-Menu"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/Help_Functions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Help_Functions"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/operationbtn"
+        android:text="Functions"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/Help_SmartVoice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Help_Main-menu" />
+
+    <Button
+        android:id="@+id/Help_SmartVoice"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/operationbtn"
+        android:text="Smart Voice"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/Help_Others"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Help_Functions" />
+
+    <Button
+        android:id="@+id/Help_Others"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/operationbtn"
+        android:text="Others"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Help_SmartVoice" />
+
+</android.support.constraint.ConstraintLayout>

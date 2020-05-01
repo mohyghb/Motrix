@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_functions"
+            android:icon="@drawable/ic_functions_black_24dp"
+            android:title="Functions" />
+
+
+        <item
+            android:id="@+id/nav_tool"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+
+        <item
+            android:id="@+id/nav_smart_room"
+            android:icon="@drawable/ic_fiber_smart_record_black_24dp"
+            android:title="Smart Voice" />
+
+        <item
+            android:id="@+id/nav_window_ratios"
+            android:icon="@drawable/ic_aspect_ratio_black_24dp"
+            android:title="Window" />
+        <item
+            android:id="@+id/nav_lists"
+            android:icon="@drawable/ic_view_list_black_24dp"
+            android:title="Lists (BETA)" />
+        <item
+            android:id="@+id/nav_exam_mode"
+            android:icon="@drawable/ic_fingerprint_black_24dp"
+            android:title="Exam Mode (BETA)" />
+
+
+
+    </group>
+
+
+    <item android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/nav_launcher"
+                android:icon="@drawable/ic_launch_black_24dp"
+                android:title="Launcher" />
+            <item
+                android:id="@+id/clear_history"
+                android:icon="@drawable/ic_clear_all_black_24dp"
+                android:title="Clear History" />
+        </menu>
+    </item>
+
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_live_help_black_24dp"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_report_bug"
+                android:icon="@drawable/ic_bug_report_black_24dp"
+                android:title="Report Problems" />
+            <item
+                android:id="@+id/nav_privacypolicy"
+                android:icon="@drawable/ic_perm_device_information_black_24dp"
+                android:title="Privacy Policy" />
+
+        </menu>
+    </item>
+
+
+
+</menu>

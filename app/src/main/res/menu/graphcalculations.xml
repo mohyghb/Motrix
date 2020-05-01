@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/XINTS"
+        android:title="x-intercepts" />
+    <item
+        android:id="@+id/YINT"
+        android:title="y-intercept" />
+    <item
+        android:id="@+id/MAX"
+        android:title="Maximums" />
+    <item
+        android:id="@+id/MIN"
+        android:title="Minimums" />
+    <item
+        android:id="@+id/YCALC"
+        android:title="y-calculator" />
+    <item
+        android:id="@+id/XCALC"
+        android:title="x-calculator" />
+    <item
+        android:id="@+id/SHOWD"
+        android:title="Show Derivative" />
+    <item
+        android:id="@+id/INTEGRAL"
+        android:title="∫ dx" />
+    <item
+        android:id="@+id/Window_Change_Graph"
+        android:title="Window" />
+    <item
+        android:id="@+id/RECENTER"
+        android:title="Re-center" />
+</menu>

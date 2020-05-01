@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".EditActivity">
+
+    <EditText
+        android:id="@+id/nameEditActivity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/function_name"
+        android:ems="10"
+        android:hint="Enter a name"
+        android:inputType="textPersonName"
+        android:maxLines="2"
+        android:minLines="2"
+        android:singleLine="true"
+        android:text="Name"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/functionEditActivity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/coolenterequation"
+        android:ems="10"
+        android:hint="Enter a function"
+        android:minLines="2"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameEditActivity" />
+
+    <Button
+        android:id="@+id/saveEditActivity"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/operationbtn"
+        android:text="save"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/colorEditActivity"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/numberbtn"
+        android:text="Color"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/styleEditActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/voicebtnEditActivity" />
+
+    <Button
+        android:id="@+id/styleEditActivity"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/numberbtn"
+        android:text="Style"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/thicknessEditActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colorEditActivity" />
+
+    <Button
+        android:id="@+id/thicknessEditActivity"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/numberbtn"
+        android:text="Thickness"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/saveEditActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/styleEditActivity"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/camerabtnEditActivity"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_image_black_24dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/voicebtnEditActivity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/functionEditActivity" />
+
+    <Button
+        android:id="@+id/voicebtnEditActivity"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_keyboard_voice_black_24dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/clearEditActivity"
+        app:layout_constraintStart_toEndOf="@+id/camerabtnEditActivity"
+        app:layout_constraintTop_toBottomOf="@+id/functionEditActivity" />
+
+    <Button
+        android:id="@+id/clearEditActivity"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/roundbtn"
+        android:text="c"
+        android:textColor="@color/operationBtn"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/voicebtnEditActivity"
+        app:layout_constraintTop_toBottomOf="@+id/functionEditActivity" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#232583</color>
+   <color name="colorPrimaryDark">#0f144b</color>
+    <color name="colorAccent">#4340ff</color>
+    <color name="lightTransparent">#d41100ff</color>
+
+ <!--<color name="colorPrimary">#FFFFFF</color>-->
+ <!--<color name="colorPrimaryDark">#000000</color>-->
+ <!--<color name="colorAccent">#858585</color>-->
+ <!--<color name="lightTransparent">#F82B2B2E</color>-->
+
+
+    //Graph colors
+    <color name= "Color1">#b71c1c</color>
+    <color name= "Color2">#880e4f</color>
+    <color name= "Color3">#4a148c</color>
+    <color name= "Color4">#311b92</color>
+    <color name= "Color5">#1a237e</color>
+    <color name= "Color6">#0d47a1</color>
+    <color name= "Color7">#03a9f4</color>
+    <color name= "Color8">#006064</color>
+    <color name= "Color9">#004d40</color>
+    <color name= "Color10">#1b5e20</color>
+    <color name= "Color11">#76ff03</color>
+    <color name= "Color12">#9e9d24</color>
+    <color name= "Color13">#ffff00</color>
+    <color name= "Color14">#ffa000</color>
+    <color name= "Color15">#ef6c00</color>
+    <color name= "Color16">#d84315</color>
+    <color name= "Color17">#3e2723</color>
+    <color name= "Color18">#424242</color>
+    <color name= "Color19">#000000</color>
+    <color name= "white">#ffffff</color>
+    <color name= "Transparent">#00ffffff</color>
+
+
+    //systemColors
+    <color name="operationBtn">#0d0e30</color>
+    <color name="coolBtnColor">#373ac6</color>
+
+
+
+
+
+</resources>
